@@ -1,0 +1,207 @@
+/* Global Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background-color: #f8f5f1;
+    color: #333;
+}
+
+.container {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+h1, h2, h3 {
+    font-weight: 600;
+    color: #76dc08;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.cta-btn {
+    padding: 10px 24px;
+    background-color: #f23567;
+    color: white;
+    border-radius: 25px;
+    font-weight: 600;
+    text-transform: uppercase;
+    transition: background-color 0.3s;
+}
+
+.cta-btn:hover {
+    background-color: #ff5722;
+}
+
+/* Header */
+header {
+    background-color: #fff;
+    padding: 20px 0;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+header .logo h1 {
+    font-size: 3rem;
+    color: #da0c62;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+}
+
+nav ul li {
+    margin-left: 20px;
+}
+
+nav ul li a {
+    font-size: 1rem;
+    color: #e31717;
+    font-weight: 600;
+    transition: color 0.3s;
+}
+
+nav ul li a:hover {
+    color: #b44e28;
+}
+
+/* Hero Section */
+.hero {
+    background-image: url('cafe.jpeg');
+    background-size: cover;
+    background-position: center;
+    color: rgb(0, 0, 0);
+    padding: 80px 0;
+    text-align: center;
+}
+
+.hero h1 {
+    font-size: 5.5rem;
+    margin-bottom: 20px;
+}
+
+.hero p {
+    font-size: 1.20rem;
+    margin-bottom: 30px;
+}
+
+.hero .cta-btn {
+    padding: 13px 30px;
+    font-size: 2.25rem;
+}
+
+/* Menu Section */
+.section {
+    padding: 50px 0;
+}
+
+.menu {
+    background-color: #fff;
+    text-align: center;
+}
+
+.menu-items {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+.menu-item {
+    width: 20%;
+    text-align: center;
+}
+
+.menu-item img {
+    width: 99%;
+    border-radius: 10px;
+}
+
+.menu-item h3 {
+    margin-top: 10px;
+    font-size: 1.5rem;
+}
+
+.menu-item p {
+    margin: 10px 0;
+}
+
+.menu-item span {
+    font-weight: 500;
+    font-size: 1.25rem;
+}
+
+/* About Section */
+.about {
+    background-color: #f9f9f9;
+    text-align: center;
+        padding: 20px 0;
+    
+}
+
+.about-content {
+    max-width: 600px;
+    margin: 0 auto;
+    font-size: 1.125rem;
+    line-height: 3.6;
+}
+
+/* Specials Section */
+.specials {
+    text-align: center;
+    background-color: #fff;
+    padding: 20px 0;
+}
+
+.special-item {
+    margin: 20px 0;
+    text-align: center;
+}
+
+.special-item img {
+    width: 99%;
+    max-width: 200px;
+    border-radius: 10px;
+    margin-bottom: 15px;
+}
+
+.special-item h3 {
+    font-size: 1.75rem;
+    color: #4d2f00;
+}
+
+.special-item p {
+    font-size: 1.20rem;
+    margin: 10px 0;
+}
+
+/* Contact Section */
+.contact {
+    background-color: #f0e5d6;
+    text-align: center;
+}
+
+.contact-details {
+    margin-top: 30px;
+}
+
+.contact-details address {
+    font-style: normal;
+    font-size: 1.25rem;
+    margin-bottom: 20px;
+}
+
+.contact-details .cta-btn {
+    padding: 12px 30px;
+    background-color:#f0e5d6;
+}
+
+ 
